@@ -32,8 +32,8 @@ function calcular() {
 
     //Resultados das carnes
     resultado.innerHTML = `<br> <p><i class="fa-solid fa-drumstick-bite"></i> ${qdtTotalPicanha / 1000} Kg de Picanha</p>`
-    resultado.innerHTML += `<p><i class="fa-solid fa-egg"></i> ${qdtTotalLinguica / 1000} Kg de Linguiça</p>`
-    resultado.innerHTML += `<p><i class="fa-solid fa-piggy-bank"></i> ${qdtTotalFrango / 1000} Kg de Frango</p> <br>`
+    resultado.innerHTML += `<p><i class="fa-solid fa-piggy-bank"></i> ${qdtTotalLinguica / 1000} Kg de Linguiça</p>`
+    resultado.innerHTML += `<p><i class="fa-solid fa-egg"></i> ${qdtTotalFrango / 1000} Kg de Frango</p> <br>`
 
     //Resultados das bebidas
     resultado.innerHTML += `<p><i class="fa-solid fa-beer-mug-empty"></i> ${Math.ceil(qdtTotalCerveja / 355)} Latas de Cerveja</p>`
